@@ -1,0 +1,90 @@
+$myWidth: 100%;
+$myColor: #242c4e;
+
+.header {
+    width: $myWidth;
+    margin-top: 15px;
+    h1{
+        text-align: center;
+        color: $myColor;
+        font-size: 45px;
+    }
+
+}
+
+.cont {
+    margin: 0px 165px;
+}
+
+
+#mySidenav {
+
+
+    a {
+        position: absolute;
+        margin-left: -60px;
+        margin-top: 85px;
+        transition: 0.3s;
+        padding: 15px;
+        width: 100px;
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        border-radius: 0 5px 5px 0;
+
+        &:hover {
+            margin-left: 0px;
+        }
+    }
+
+    
+}
+
+
+#about {
+    top: 20px;
+    background-color: $myColor;
+   
+}
+
+#blog {
+    top: 80px;
+    background-color: $myColor;
+}
+
+
+#projects {
+    top: 140px;
+    background-color: $myColor;
+   
+}
+
+#gallery {
+    top: 200px;
+    background-color: $myColor;
+ 
+
+}
+
+#sale {
+    top: 260px;
+    background-color: $myColor;
+
+}
+
+#contact {
+    top: 320px;
+    background-color: $myColor;
+}
+.header_right{
+    float: right;
+
+
+    .header_img{
+        border: 1px solid;
+        border-radius: 50%;
+        width: 700px;
+    }
+    
+}
+
